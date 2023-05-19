@@ -117,9 +117,5 @@ public class Main {
         Thread.sleep(2000);
         Assert.assertEquals(Request.Confirm(), "Wealth Securities Dynamic Loans (WSDL)");
     }
-    @AfterSuite
-    public void finish(){
-        driver.quit();
-    }
 }
 
