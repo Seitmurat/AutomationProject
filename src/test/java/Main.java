@@ -83,7 +83,6 @@ public class Main {
         BillPay.VerifyAcc(acc_id);
         BillPay.Payee_amount("100");
         BillPay.SendBtn();
-        Thread.sleep(2000);
         Assert.assertEquals(BillPay.PaymentConfirm(), "Bill Payment Complete");
     }
     @Test(priority = 4)
